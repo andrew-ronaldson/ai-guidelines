@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, color, accessibility]
 ---
 
-# Color
 
 ## Don't use color or gradients to indicate AI
 

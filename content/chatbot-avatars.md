@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, chatbot, avatar, robot]
 ---
 
-# Chatbot avatars
 
 ## Use the new robot icon for chatbot avatars
 

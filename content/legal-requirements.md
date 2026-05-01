@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, legal, compliance]
 ---
 
-# Legal requirements
 
 ## Complete all necessary internal reviews
 

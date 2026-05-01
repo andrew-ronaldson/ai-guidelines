@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, animation, sparkle]
 ---
 
-# Animation
 
 This guidance is a work in progress.
 

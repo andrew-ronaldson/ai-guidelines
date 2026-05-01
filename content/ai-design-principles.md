@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, design, principles]
 ---
 
-# AI design principles
 
 Regardless of the application or components, when designing for an AI-enabled experience:
 

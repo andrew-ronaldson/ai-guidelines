@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, transparency, disclosure, notices]
 ---
 
-# Transparency notices
 
 ## It should always be clear when and how AI is being used
 

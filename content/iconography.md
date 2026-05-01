@@ -6,7 +6,6 @@ subcategory: guidelines
 tags: [ai, icons, sparkle, visual]
 ---
 
-# Iconography
 
 ## Visual representations of AI
 
