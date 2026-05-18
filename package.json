@@ -6,5 +6,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/project-felt/ai-guidelines"
+  },
+  "scripts": {
+    "check-source": "./check-source.sh",
+    "update-checksum": "./check-source.sh --update"
+  },
+  "files": [
+    "content",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }

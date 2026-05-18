@@ -1,0 +1,414 @@
+1
+Last updated: March  2026
+This is an iterative deck that will evolve with the ever-changing nature of AI, particularly as we incorporate unique use cases, iconography, and legal notices.
+Design language: AI-enabled features
+
+Design language: AI-enabled functions
+Team conclusionsRegardless of the application or components, when designing for an AI-enabled experience:
+2
+Our research shows that users want to be aware when they are interacting with AI. Make it clear using labels and visual cues.
+Be transparent
+AI from Red Hat should be polite and follow our voice and tone, but it shouldn’t act as though the user is interacting with a human.
+Make it personable, but not human
+Follow the brand standards and our PatternFly and design system standards so that AI-enabled experiences look and feel like Red Hat.
+Stay within the Red Hat brand and design language
+
+Design language: AI-enabled functions
+Legal requirementsComplete all necessary internal reviews
+3
+This guidance does not replace other assessments or guidance from other teams you may be required to complete (such as submitting an AI Assessment,  Privacy Impact Assessment, or other reviews).
+Learn more about AI Assessments
+Complete all necessary internal reviews
+
+Design language: AI-enabled functions
+4
+Transparency notices
+
+It should always be clear when and how AI is being used.
+Design language: AI-enabled functions
+5
+User research has shown that users want to clearly see when an action that they will take involves AI. Err on the side of over-communicating about AI features. 
+Don’t rely on just one form of indicator for AI-enabled experiences. 
+At minimum use one visual and one verbal indicator, including options like icons, “with AI” button text, animations, and text disclaimers.
+Consider additional indicators for high-risk interactions. Consult with the AIA Reviewers during your AIA review process as needed.
+
+Transparency components for AI-related features
+These components are used to notify users when they are interacting with AI-related features. They also inform users that generated responses may contain inaccuracies and advise them not to provide personal information, as AI systems may retain data for future improvements.
+Common UX practices suggests to place the icon before the disclosure helps users more easily notice and recognize the message. Tooltips are not included in these messages.
+The label and notification style may vary depending on the context in which the information appears. Please refer to the guidance for more details on notification messages.
+6
+Design language: AI-enabled functions
+
+Transparency notices for AI-assisted features 
+Some AI-assisted features may warrant more than an icon and text label as already discussed. In these cases, a text notice can be placed at the beginning of an experience.
+The text for this notice may vary or be tailored to the content. 
+For external-facing AI-features, refer to this guidance and work with your AIA Reviewers during the AIA review process.
+7
+Design language: AI-enabled functions
+This notice is shown with the AI-generated content or AI-related tools
+
+Transparency notices for virtual assistants
+Include a notice at the beginning of an experience stating, at a minimum: "This feature uses AI technology. Do not include any personal information or other sensitive information in your input."
+Include a persistent notice under the i "Always review AI-generated content prior to use." 
+For external-facing AI-features, refer to this guidance.
+8
+Design language: AI-enabled functions
+This notice is shown before a user interacts with the virtual assistant and before any content is generated
+Persistent notice associated with input/output box.
+In this example, AI icon serves as a visual indicator.
+“AI “ tag/label is a verbal indicator.
+
+Indicating AI-generated content
+AI-generated content, like a search results summary, must include a label and an icon indicating to the user that the content has been created using AI. 
+9
+Design language: AI-enabled functions
+The title indicates the use of AI both visually, with the sparkle icon, and verbally, by including “AI-assisted” in the results heading
+
+Indicating AI-generated images
+AI-generated images or ads should not be labeled individually.
+Visually indicating each image in an ad or website that includes an AI-generated component would be distracting, and could cause users to assume that entire images or pages are created without human influence. We see this in the responses to our AI sentiment survey.
+Instead, we are working on a site-wide notice that will outline when users will (and won’t) encounter AI-generated images on Red Hat web properties.
+10
+Design language: AI-enabled functions
+The laptop in this collage was generated with an Adobe Firefly custom model, but the rest of the elements and the page content are not genAI.
+The “Repo” character and the birthday cake in this ad were both generated using AI tools, but the logos, copy, and composition were created and composed by humans.
+
+Design language: AI-enabled functions
+11
+Iconography
+
+Visual representations of AIAI is a hot topic, and there are a variety of ways that we represent it in different parts of the Red Hat brand. 
+Nearly every medium we use includes one or more way to represent AI and related concepts. 
+Make sure you’re using the appropriate visual for your use case and application. Consider the size of the space, the user’s action, and their point in the customer journey.
+12
+Design language: AI-enabled functions
+UI icons
+Standard icons
+Technology icons
+3D objects
+3D textures
+Collages
+
+Design language: AI-enabled functions
+13
+Use new AI-related user interface icons
++
+=
+Edit
+AI
+Edit with AI
+We’ve created a new set of UI icons to indicate when a feature or interaction will use AI.
+Built on the recognition of our existing UI icons and metaphors
+Sparkles appear across Red Hat visuals to represent AI experiences
+Initial set of 9 icons covers the majority of AI-related features and experiences
+
+Design language: AI-enabled functions
+14
+When the sparkle is added to another icon, it sits in the same spot in the upper left corner of each icon for consistency. Why the upper left? This position works best for our icon style, since many icons sit on a 45º angle.
+When necessary, the sparkle breaks into the outline of the icon with a minimum of 2px clear space around it for maximum legibility. Stroke ends are rounded.
+Sparkles are square with slightly round ends, matching the proportions and details of other sparkles across the Red Hat design language.
+Don’t create new AI icons. If you need a new one, request it by chatting us on Slack at #help-brand
+
+Icons in use
+Use an icon with an AI sparkle to indicate an ai-enabled action or ai-generated result.
+
+Icons with AI sparkles should always be paired with text (in the button or on hover) that says “...with AI”, “...by AI”, or something similar so that there are multiple indicators that AI is being used.
+
+Our user research indicates that users need the additional clarity provided by both text and an icon.
+15
+Design language: AI-enabled functions
+Icons can be used in non-interactive components, like tags or labels.
+Icons can be used on buttons
+
+16
+Design language: AI-enabled functions
+Information
+Where to use them:On a pop-up, alert, card, or other informative element.
+
+What they indicate:These icons indicate to the user that the information currently being provided to them was generated with AI.
+
+Example:A card showing an AI-generated summary of dashboard data
+
+Download them in Brand Portal.
+rh-ui-icon-ai-info
+rh-ui-icon-ai-error
+rh-ui-icon-ai-experience
+When this icon is present, the information presented was partially or completely generate by AI.
+When this icon is present, a problem has been identified by/with help from AI.
+Use this one when neither of these other icons fit.
+Don’t create new AI icons. If you need a new one, request it by chatting us on Slack at #help-brand
+
+Actions
+Where to use them:As a button or on a button.
+
+What they indicate:These icons indicate to the user that when they click on them, the next action will use or be enabled by AI.
+
+Example:
+A button that will cause a pop-up to appear with AI-generated troubleshooting assistance.
+
+Download them in Brand Portal.
+17
+Design language: AI-enabled functions
+rh-ui-icon-ai-edit
+rh-ui-icon-ai-troubleshoot
+rh-ui-icon-ai-filter
+rh-ui-icon-ai-search
+rh-ui-icon-ai-create
+rh-ui-icon-ai-enhance
+rh-ui-icon-ai-experience
+When clicked, the user will begin to edit something with help from AI.
+When clicked, the user will receive help or suggestions from AI to troubleshoot.
+When clicked, the user will filter data with help or suggestions from AI.
+When clicked, the user will begin to search with help from AI.
+When clicked, the user will create something new with help from AI.
+When clicked, the user will begin enhancing something with help from AI.
+Use this one when none of these other icons fit.
+Don’t create new AI icons. If you need a new one, request it by chatting us on Slack at #help-brand
+
+Design language: AI-enabled functions
+18
+Do this: Use UI icons with sparkles when indicating that the information it appears with was generated by AI.
+Not this: Don’t use UI icons with sparkles when the information it is paired with was not generated by AI. Use the normal (no sparkle) UI icon instead.
+
+Design language: AI-enabled functions
+19
+Not this: Don’t create new UI icons with sparkles attached to them.
+
+We need to create new icons using our template to make sure they use pixel-perfect spacing and get added to the library. Request a new one by chatting us on Slack at #help-brand
+Not this: Don’t use brains or robots to represent AI features.
+
+The existing brain UI icon represents learning and education. A robot icon should only be used for chatbot avatars.
+Not this: Don’t change the colors of the UI icons or modify them. Use them in the same colors as other UI icons in the interface.
+
+Design language: AI-enabled functions
+20
+Not this: Don’t use UI icons with sparkles without including a disclosure about the use of AI.
+Not this: Don’t add an AI sparkle to a technology icon.
+Not this: Don’t use icons with the AI sparkle to indicate “new.” Use rh-ui-icon-new instead.
+
+Design language: AI-enabled functions
+21
+Color
+
+Design language: AI-enabled functions
+22
+Don’t use color or gradients to indicate AI
+Do not use gradients and color coding for AI features.
+Avoids conflicting with existing status colors andcolor associations.
+Avoids the additional accessibility and coding challenges associated with gradients.
+Avoids the potential for confusion between hybrid style marketing materials and interface functionality.
+
+AI features use the same colors as other interface elements.
+In a future where AI features are ubiquitous and table-stakes, it will be overwhelming / distracting to attract attention to every AI element across the interface.
+Our color palette was carefully designed to account for status associations and accessibility requirements.
+Learn more about how we use color in the Red Hat brand, the Red Hat Design System, and Patternfly.
+
+23
+Design language: AI-enabled functions
+Color associationsand statuses
+Across Red Hat products, web experiences, and marketing materials, we use these common color associations to communicate with color.
+We should continue to use these same associations for AI features.
+Learn more about how we use color in the Red Hat brand, the Red Hat Design System, and Patternfly.
+Status orassociation
+Severity level
+Color
+Use case
+Red Hat
+0
+Brand color, use sparingly for most impact
+Neutral
+0
+General, no severity
+Info/note tip
+0
+Helpful information, previously clicked link
+Success
+0
+Success state or an action was successful
+Null/not available
+0
+Unavailable or unimportant
+Link/interaction
+0
+Link, button, or other interactive element
+Warning
+1
+Act now to avoid a destructive action or error
+Caution
+2
+Non-destructive action or fixable error
+Danger
+3
+Destructive action or critical error
+red
+danger-orange
+orange
+yellow
+interaction-blue
+success-green
+purple
+teal
+gray
+
+24
+Design system: AI-enabled features
+Do this: Use the same colors for AI features as the rest of the interface.
+Not this: Don’t color-code AI features or use colors that are different from the rest of the interface. This could create conflicts with established color associations and statuses.
+Not this: Don’t use gradients to indicate that something is/uses AI.
+
+
+
+Design language: AI-enabled functions
+25
+Chatbot avatars
+
+Design language: AI-enabled functions
+26
+Use the new robot icon for chatbot avatars
+Standard icon
+UI icon
+All chatbots should use our robot icon as their avatar or profile picture. Other AI experiences should not use a robot icon.
+Why use a robot icon for chatbots?
+Creates a strong connection with the robot icon and the expectation of a chat experience: A survey at OpenShift Commons indicated that participants associate a robot with an AI chatbot
+Creates a cohesive experience across Red Hat chatbots
+Overuse of the robot icon could dilute the authenticity and relatability of our brand personality.
+Why this robot icon, specifically?
+A follow-up Qualtrics survey indicated that while the original robot icon didn’t convey advanced AI capabilities, participants suggested that a more recognizable, expressive robot would be preferable
+The team revised the original robot design to be more expressive and better represent the more advanced AI features available in Red Hat chatbots
+
+27
+Design language: AI-enabled functions
+Variations
+Using a robot to represent AI chatbots opens up new possibilities for using variations of the robot to express personality and add whimsy to experiences. 
+Depending on the technical limitations, consider using chatbot icon variations or animations to show thinking states, react to content, or differentiate chatbot options.
+Note: the UI icon robot does not have variations due to size constraints. 
+This is an area for ongoing experimentation. We look forward to hearing your ideas and expanding the possibilities for chatbot avatars.
+Download standard icon size
+Download UI icon size
+happy chatbot (default)
+annoyed chatbot
+bewildered chatbot
+More robot variations can be created as needed. If you need a new one, request it by chatting us on Slack at #help-brand
+sad chatbot
+
+28
+Design system: AI-enabled features
+Chatbot avatars in use
+The robot icon should be consistent, but can be styled as needed to provide an engaging experience in each chatbot application. Use the UI size version of the happy chatbot for avatars and launch buttons. The avatar variants are using PatternFly’s non-status tokens. The size of the avatar variants vary from small, medium, and  large. Use discretion when choosing the appropriate size for your product screens. If the pf-chatbot is using compact sizing then the avatar will adopt the compact size variant. 
+Talk to the Patternfly or RHDS team if you’re not sure if you’re styling your chatbot avatar appropriately.
+Avatar color variants and sizing:
+Light Theme
+Dark Theme
+Avatar colors are using ‘non-status’ color tokens. We advise against using success-green, interaction-blue and danger-red. 
+
+29
+Design language: AI-enabled functions
+Chatbot launch button
+When clicking a button results in opening a conversation with a chatbot, use the robot icon on the button. We recommend using the UI Icon sizing for the launch CTA and the avatar.
+The launch button (launch toggle) variant in these examples are using PatternFly tokens. Please choose the variant that accommodates your product needs best. Be sure to consider the page background color vs the icon button color. 
+
+This example is using a icon button and is contextually placed on the bottom right corner of the page. 
+
+Light Theme 
+Dark Theme 
+Secondary  Icon Button Variant: 
+Primary Icon Button Variant: 
+The visual execution of the 'Launch' CTA is context-dependent and should follow local product area patterns. If using the patternfly icon button component, you would inherit that systems hover, clicked and active state changes. 
+Light Theme 
+Dark Theme 
+Light Theme 
+Dark Theme 
+Inverse Icon Button Variant: 
+
+30
+Design language: AI-enabled functions
+Chatbot launch buttons
+When clicking a button results in opening a conversation with a chatbot, use the robot icon on the button. We recommend using the UI Icon sizing for the launch CTA and the avatar.
+To the left, we have provided a few contextual examples of possible launch button styling using masthead items, icon buttons and menu toggles. 
+A chatbot using the standard robot icon for the bot and a profile picture for the human. A chatbot panel opening from the bottom right corner of the UI using an  icon button. 
+Different ways to launch a chatbot, all using the same robot icon and different component styling. Be sure to choose the variant and launch location that best suits your product UI. 
+
+Design language: AI-enabled functions
+31
+Not this: Don’t use other icons or robots as chatbot avatars.
+Not this: Don’t use robot icons to represent other kinds of AI experiences
+Not this: Don’t use robot icons to represent humans
+
+Design language: AI-enabled functions
+32
+Not this: Don’t change the styling of launch buttons to use a gradient fill or border gradient.
+
+Not this: Don’t use robot variations to indicate state changes or alerts
+Not this: Don’t change the color of the robot icon based on the “emotion” of the variation.
+
+Design language: AI-enabled functions
+33
+Animation (WIP)
+
+34
+Design language: AI-enabled functions
+Animation
+Exploration in progress
+
+Use the premade sparkle animation to add interest to AI indicators, including icons and chatbot avatars. Animations should start on rollover, hover, or click and loop once before returning to the inactive state.
+
+For clarity, be sure that the AI sparkle is visible when the animation is at rest.
+Don’t create new animations. If you need a new one, request it by chatting us on Slack at #help-brand
+
+Design language: AI-enabled functions
+35
+Do this: Make sure that the AI sparkle is visible at the beginning and end of the animation loop, including when he animation is at rest.
+Not this:  Do not allow animations to play before the user interacts with them, or allow animations to loop endlessly.
+
+
+
+Not this: Do not use animations that are exaggerated or over-the-top.
+Do this: The animation should stay within the same bounding box as the static icon, so that padding does not need to be adjusted.
+
+Design language: AI-enabled functions
+36
+What’s next
+
+Design language: AI-enabled functions
+37
+Next steps2026 Q1
+Add additional “with AI” icons as needed (request them by chatting #help-brand on Slack)
+Finalize site-wide disclosure statement, assess need for a similar statement for products
+Test avatar icon options in real applications and create new versions / guidelines as needed. Explore animations.
+Finalize specs for implementing animations
+Incorporate guidance into Patternfly and the Red Hat Design System (Q2)
+Explore signifying agentic experiences (Q2+)
+
+
+Design language: AI-enabled functions
+38
+Comms2026 Q1
+Channel
+Team member(s)
+Date
+UXD team meeting
+Pat
+2/17
+Applied AI sync
+Lisa
+2/25
+DPO email
+Libby + Aaron
+TBD, Q1
+February brand assets updates
+Libby
+Early March
+#forum-bxc-announcements
+Libby
+2/17
+The Brim newsletter
+Corey
+TBD, Q1
+DPO monthly meeting
+Pat, Libby
+3/3
+
+Red Hat is the world’s leading provider of enterprise open source software solutions. Award-winning support, training, and consulting services make Red Hat a trusted adviser to the Fortune 500. 
+Thank you
+Red Hat Brand and Experience Design Team
+39
