@@ -1,0 +1,21 @@
+#!/bin/bash
+# Updates last_updated frontmatter in any staged content/*.md files.
+
+today=$(date +%Y-%m-%d)
+changed=0
+
+while IFS= read -r file; do
+  if [[ "$file" =~ ^content/.*\.md$ ]] && [[ -f "$file" ]]; then
+    if grep -q "^last_updated:" "$file"; then
+      sed -i '' "s/^last_updated:.*/last_updated: $today/" "$file"
+    else
+      sed -i '' "s/^---$/---/" "$file"
+      # Insert last_updated before the closing --- of frontmatter
+      awk '/^---/{n++} n==2 && /^---/{print "last_updated: '"$today"'"} {print}' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+    fi
+    git add "$file"
+    changed=1
+  fi
+done < <(git diff --cached --name-only)
+
+exit 0

@@ -4,10 +4,10 @@ description: Guidelines for AI-related animations and sparkle effects
 category: ai
 subcategory: guidelines
 tags: [ai, animation, sparkle]
+status: draft
+last_updated: 2026-05-29
 ---
 
-
-This guidance is a work in progress.
 
 ## Using animation
 
@@ -15,7 +15,10 @@ Use the premade sparkle animation to add interest to AI indicators, including ic
 
 - Animations should start on rollover, hover, or click and loop once before returning to the inactive state.
 - For clarity, be sure that the AI sparkle is visible when the animation is at rest.
-- **Don't** create new animations. If you need a new one, request it by chatting us on Slack at #help-brand.
+- **Don't** create new animations.
+
+> [!NOTE]
+> To request a new animation, chat us on Slack at #help-brand.
 
 ## Animation do's and don'ts
 

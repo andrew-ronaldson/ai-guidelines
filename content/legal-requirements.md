@@ -4,6 +4,7 @@ description: Legal review requirements for AI-enabled features
 category: ai
 subcategory: guidelines
 tags: [ai, legal, compliance]
+last_updated: 2026-05-29
 ---
 
 
@@ -11,4 +12,4 @@ tags: [ai, legal, compliance]
 
 This guidance does not replace other assessments or guidance from other teams you may be required to complete (such as submitting an AI Assessment, Privacy Impact Assessment, or other reviews).
 
-Learn more about AI Assessments.
+[Learn more about AI Assessments](https://url.corp.redhat.com/ai-assessments).
