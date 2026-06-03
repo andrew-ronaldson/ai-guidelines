@@ -4,6 +4,7 @@ description: Core principles for designing AI-enabled experiences at Red Hat
 category: ai
 subcategory: guidelines
 tags: [ai, design, principles]
+order: 1
 last_updated: 2026-05-29
 ---
 

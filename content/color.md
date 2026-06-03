@@ -4,6 +4,7 @@ description: Color usage guidelines for AI-enabled features
 category: ai
 subcategory: guidelines
 tags: [ai, color, accessibility]
+order: 5
 last_updated: 2026-05-29
 ---
 

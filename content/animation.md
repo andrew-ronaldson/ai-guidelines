@@ -4,6 +4,7 @@ description: Guidelines for AI-related animations and sparkle effects
 category: ai
 subcategory: guidelines
 tags: [ai, animation, sparkle]
+order: 7
 status: draft
 last_updated: 2026-05-29
 ---

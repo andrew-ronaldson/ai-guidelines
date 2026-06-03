@@ -4,6 +4,7 @@ description: Legal review requirements for AI-enabled features
 category: ai
 subcategory: guidelines
 tags: [ai, legal, compliance]
+order: 2
 last_updated: 2026-05-29
 ---
 
