@@ -8,6 +8,7 @@
     "url": "https://github.com/project-felt/ai-guidelines"
   },
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
     "check-source": "./check-source.sh",
     "update-checksum": "./check-source.sh --update"
   },
