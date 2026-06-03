@@ -5,7 +5,7 @@ category: ai
 subcategory: guidelines
 tags: [ai, color, accessibility]
 order: 5
-last_updated: 2026-05-29
+last_updated: 2026-06-03
 ---
 
 
@@ -43,6 +43,6 @@ Across Red Hat products, web experiences, and marketing materials, these common 
 
 ## Color do's and don'ts
 
-- [Example including "Edit with AI" and "Ask Red Hat" buttons and an AI filter icon button all matching the expected UI colors](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-use-same-colors-for-ai-as-rest-of-ui.png "do") **Do**: Use the same colors for AI features as the rest of the interface.
-- [Crossed out example UI, where the button components have been colored purple](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-color-code-ai-or-vary-from-rest-of-ui.png "dont") **Don't**: Color-code AI features or use colors that are different from the rest of the interface. This could create conflicts with established color associations and statuses.
-- [Crossed out example UI, where the buttons have gradients](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-use-gradients-for-ai.png "dont") **Don't**: Use gradients to indicate that something is or uses AI.
+- [Example including "Edit with AI" and "Ask Red Hat" buttons and an AI filter icon button all matching the expected UI colors](../assets/images/do-use-same-colors-for-ai-as-rest-of-ui.png "do") **Do**: Use the same colors for AI features as the rest of the interface.
+- [Crossed out example UI, where the button components have been colored purple](../assets/images/do-not-color-code-ai-or-vary-from-rest-of-ui.png "dont") **Don't**: Color-code AI features or use colors that are different from the rest of the interface. This could create conflicts with established color associations and statuses.
+- [Crossed out example UI, where the buttons have gradients](../assets/images/do-not-use-gradients-for-ai.png "dont") **Don't**: Use gradients to indicate that something is or uses AI.

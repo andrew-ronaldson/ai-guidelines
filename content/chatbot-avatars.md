@@ -5,7 +5,7 @@ category: ai
 subcategory: guidelines
 tags: [ai, chatbot, avatar, robot]
 order: 6
-last_updated: 2026-05-29
+last_updated: 2026-06-03
 ---
 
 
@@ -18,7 +18,7 @@ All chatbots should use the robot icon as their avatar or profile picture. Other
 
 <figure data-type="example">
 
-![Our new robot icons: the larger Standard icon shown in red and the smaller UI icon shown in black](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/chatbot-icons-standard-vs-ui.svg "example")
+![Our new robot icons: the larger Standard icon shown in red and the smaller UI icon shown in black](../assets/images/chatbot-icons-standard-vs-ui.svg "example")
 
 </figure>
 
@@ -35,28 +35,28 @@ Using a robot to represent AI chatbots opens up new possibilities for using vari
 
 <figure data-type="example">
 
-![Happy chatbot (default)](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/rh-icon-ai-chatbot-happy-red.svg "example")
+![Happy chatbot (default)](../assets/images/rh-icon-ai-chatbot-happy-red.svg "example")
 
 <figcaption>Happy chatbot (default)</figcaption>
 </figure>
 
 <figure data-type="example">
 
-![Annoyed chatbot](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/rh-icon-ai-chatbot-annoyed-red.svg "example")
+![Annoyed chatbot](../assets/images/rh-icon-ai-chatbot-annoyed-red.svg "example")
 
 <figcaption>Annoyed chatbot</figcaption>
 </figure>
 
 <figure data-type="example">
 
-![Bewildered chatbot](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/rh-icon-ai-chatbot-bewildered.svg "example")
+![Bewildered chatbot](../assets/images/rh-icon-ai-chatbot-bewildered.svg "example")
 
 <figcaption>Bewildered chatbot</figcaption>
 </figure>
 
 <figure data-type="example">
 
-![Sad chatbot](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/rh-icon-ai-chatbot-sad-red.svg "example")
+![Sad chatbot](../assets/images/rh-icon-ai-chatbot-sad-red.svg "example")
 
 <figcaption>Sad chatbot</figcaption>
 </figure>
@@ -71,14 +71,14 @@ The robot icon should be consistent, but can be styled as needed to provide an e
 
 <figure data-type="example">
 
-![Chatbot avatar color variants on a light theme/mode background, showing the robot icon in large, medium, and small sizes across eight colors: teal, blue, pink, orange, yellow, purple, gray, and white.](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/avatar-color-variants-light-theme.png "example")
+![Chatbot avatar color variants on a light theme/mode background, showing the robot icon in large, medium, and small sizes across eight colors: teal, blue, pink, orange, yellow, purple, gray, and white.](../assets/images/avatar-color-variants-light-theme.png "example")
 
 <figcaption>Chatbot avatar color variants on a light theme background</figcaption>
 </figure>
 
 <figure data-type="example">
 
-![Chatbot avatar color variants on a dark theme/mode background, showing the robot icon in large, medium, and small sizes across eight colors: teal, blue, pink, orange, yellow, purple, gray, and black.](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/avatar-color-variants-dark-theme.png "example")
+![Chatbot avatar color variants on a dark theme/mode background, showing the robot icon in large, medium, and small sizes across eight colors: teal, blue, pink, orange, yellow, purple, gray, and black.](../assets/images/avatar-color-variants-dark-theme.png "example")
 
 <figcaption>Chatbot avatar color variants on a dark theme background</figcaption>
 </figure>
@@ -104,16 +104,16 @@ When clicking a button results in opening a conversation with a chatbot, use the
 
 <figure data-type="example">
 
-![Chatbot launch button variants shown across light and dark theme/modes as primary, secondary and inverse robot icon buttons states](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/chatbot-launch-button-variants.png "example")
-![PatternFly chatbot UI screenshot with examples of chatbot launch buttons, using the robot icon](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/chatbot-launch-buttons.png "example")
+![Chatbot launch button variants shown across light and dark theme/modes as primary, secondary and inverse robot icon buttons states](../assets/images/chatbot-launch-button-variants.png "example")
+![PatternFly chatbot UI screenshot with examples of chatbot launch buttons, using the robot icon](../assets/images/chatbot-launch-buttons.png "example")
 
 </figure>
 
 ## Chatbot avatar don'ts
 
-- [Crossed out avatar image using a different and unapproved robot image](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-use-other-robot-images-as-chatbot-avatars.svg "dont") **Don't** use other icons or robots as chatbot avatars.
-- [Crossed out "Edit with AI" dropdown toggle with the robot icon](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-use-robot-icons-as-other-ai-experiences.png "dont")**Don't** use robot icons to represent other kinds of AI experiences.
-- [Crossed out chat screenshot with a robot avatar representing a human user](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-use-robot-icons-for-humans.png "dont") **Don't** use robot icons to represent humans.
-- [Crossed out robot avatar that has been recolored with a gradient](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-change-styling-or-use-gradients.svg "dont") **Don't** change the styling of launch buttons to use a gradient fill or border gradient.
-- [Crossed out screenshot of an alert message with the Red Hat robot icon as an avatar/icon](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-use-robot-variations-for-state-changes.png "dont") **Don't** use robot variations to indicate state changes or alerts.
-- [Crossed out robot avatars that have been recolored to express emotion—blue for happy and red for sad.](https://www.redhatstatic.com/dssf-001/gh/felt/ai-guidelines/assets/images/do-not-change-color-based-on-emotion.svg "dont") **Don't** change the color of the robot icon based on the "emotion" of the variation.
+- [Crossed out avatar image using a different and unapproved robot image](../assets/images/do-not-use-other-robot-images-as-chatbot-avatars.svg "dont") **Don't** use other icons or robots as chatbot avatars.
+- [Crossed out "Edit with AI" dropdown toggle with the robot icon](../assets/images/do-not-use-robot-icons-as-other-ai-experiences.png "dont")**Don't** use robot icons to represent other kinds of AI experiences.
+- [Crossed out chat screenshot with a robot avatar representing a human user](../assets/images/do-not-use-robot-icons-for-humans.png "dont") **Don't** use robot icons to represent humans.
+- [Crossed out robot avatar that has been recolored with a gradient](../assets/images/do-not-change-styling-or-use-gradients.svg "dont") **Don't** change the styling of launch buttons to use a gradient fill or border gradient.
+- [Crossed out screenshot of an alert message with the Red Hat robot icon as an avatar/icon](../assets/images/do-not-use-robot-variations-for-state-changes.png "dont") **Don't** use robot variations to indicate state changes or alerts.
+- [Crossed out robot avatars that have been recolored to express emotion—blue for happy and red for sad.](../assets/images/do-not-change-color-based-on-emotion.svg "dont") **Don't** change the color of the robot icon based on the "emotion" of the variation.
