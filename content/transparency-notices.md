@@ -5,7 +5,7 @@ category: ai
 subcategory: guidelines
 tags: [ai, transparency, disclosure, notices]
 order: 3
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 
@@ -33,9 +33,9 @@ These components are used to notify users when they are interacting with AI-rela
   <img src="../assets/images/info-modal-alert-ai-related-features.png" alt="Toast alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information or other sensitive information in your input...&quot; guidance" title="example" width="389">
   <figcaption>
 
-    - Always review AI-generated content prior to use.
-    - AI-assisted search is for Red Hat product or support questions. Do not enter personal or sensitive information.
-    - Do not include any personal information or other sensitive information in your feedback. Feedback may be used to improve Red Hat's products or services.
+- Always review AI-generated content prior to use.
+- AI-assisted search is for Red Hat product or support questions. Do not enter personal or sensitive information.
+- Do not include any personal information or other sensitive information in your feedback. Feedback may be used to improve Red Hat's products or services.
 
   </figcaption>
 </figure>
@@ -64,8 +64,8 @@ Some AI-assisted features may warrant more than an icon and text label. In these
   <img src="../assets/images/virtual-assistant-info-message.png" alt="Example: Ask Red Hat virtual assistant with an alert info component giving notice before a user interacts with the virtual assistant and before any content is generated. Persistent notice associated with input/output box" title="example" width="572">
   <figcaption>
 
-    - The AI icon serves as a visual indicator, and the "AI" tag/label is a verbal indicator.
-    - This notice is shown before a user interacts with the virtual assistant and before any content is generated, with a persistent notice associated with the input/output box.
+- The AI icon serves as a visual indicator, and the "AI" tag/label is a verbal indicator.
+- This notice is shown before a user interacts with the virtual assistant and before any content is generated, with a persistent notice associated with the input/output box.
 
   </figcaption>
 </figure>
@@ -90,8 +90,8 @@ AI-generated images or ads should not be labeled individually.
   <img src="../assets/images/indicating-ai-generated-images.png" alt="Example: Desktop view of redhat.com showing an AI-generated laptop image, and Red Hat Developer ad with an AI-generated image of the &quot;Repo&quot; character with the birthday cake." title="example" width="1039">
   <figcaption>
 
-    - The laptop in this collage was generated with an Adobe Firefly custom model, but the rest of the elements and the page content are not genAI.
-    - The "Repo" character and the birthday cake in this ad were both generated using AI tools, but the logos, copy, and composition were created and composed by humans.
+- The laptop in this collage was generated with an Adobe Firefly custom model, but the rest of the elements and the page content are not genAI.
+- The "Repo" character and the birthday cake in this ad were both generated using AI tools, but the logos, copy, and composition were created and composed by humans.
 
   </figcaption>
 </figure>
