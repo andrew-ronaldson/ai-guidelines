@@ -45,12 +45,12 @@ Use inline alerts to surface AI disclosures directly within the page context.
 Use toast alerts for more prominent AI disclosures, such as when a feature is first accessed.
 
 <figure data-type="example">
-  <img src="../assets/images/warning-modal-alert-ai-related-features.png" alt="Toast alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="389" />
+  <img src="../assets/images/warning-modal-alert-ai-related-features.png" alt="Toast alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="389">
   <figcaption>Warning variant: inform users that their information will be used to create an AI-generated summary and that output may not be up-to-date or without error.</figcaption>
 </figure>
 
 <figure data-type="example">
-  <img src="../assets/images/info-modal-alert-ai-related-features.png" alt="Toast alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="389" />
+  <img src="../assets/images/info-modal-alert-ai-related-features.png" alt="Toast alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="389">
   <figcaption>Info variant: remind users not to include personal information, and link to the Red Hat Privacy Statement for more information.</figcaption>
 </figure>
 
