@@ -5,7 +5,7 @@ category: ai
 subcategory: guidelines
 tags: [ai, icons, sparkle, visual]
 order: 4
-last_updated: 2026-06-12
+last_updated: 2026-06-18
 ---
 
 
@@ -19,11 +19,32 @@ AI is a hot topic, and there are a variety of ways that we represent it in diffe
 
 <figure data-type="example">
   <img src="../assets/images/ui-icons.svg" alt="Red Hat UI icons: edit and AI experience" title="example" width="169" />
+  <figcaption>UI icons</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/standard-icons.svg" alt="Red Hat standard icons: AI experience and AI model" title="example" width="269" />
+  <figcaption>Standard icons</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/technology-icons.svg" alt="Red Hat technology icons: AI and Lightspeed" title="example" width="282" />
+  <figcaption>Technology icons</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/3d-objects.svg" alt="Red Hat 3D objects: 3D AI and 3D AI Cube" title="example" width="270" />
+  <figcaption>3D objects</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/3d-textures.svg" alt="Red Hat 3D textures, showing AI model and datapoints" title="example" width="226" />
+  <figcaption>3D textures</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/collages.svg" alt="Red Hat collages, showing agentic AI and edge computing" title="example" width="296" />
+  <figcaption>Collages</figcaption>
 </figure>
 
 ## Use new AI-related user interface icons
@@ -48,8 +69,17 @@ Red Hat has created a new set of UI icons to indicate when a feature or interact
 
 <figure data-type="example">
   <img src="../assets/images/sparkles-square-with-round-ends.svg" alt="Examples of different forms of the AI experience icons: 3D, technology icon, standard, and UI." title="example" width="413" />
+  <figcaption>Sparkles are square with slightly round ends, matching the proportions of other sparkles across the Red Hat design language.</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/added-sparkle-sits-in-upper-left-corner.svg" alt="Examples of the AI sparkle sitting in the same upper left corner of each icon: create, edit, enhance, and filter." title="example" width="409" />
+  <figcaption>The added sparkle sits in the same upper left corner of each icon for consistency.</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/sparkle-breaks-outline-icon.svg" alt="Zoomed in example of how the AI sparkle breaks into the outline of the icon with a minimum of 2px clear space." title="example" width="410" />
+  <figcaption>When necessary, the sparkle breaks into the outline of the icon with a minimum of 2px clear space for legibility.</figcaption>
 </figure>
 
 ## Icons in use

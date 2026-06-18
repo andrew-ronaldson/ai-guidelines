@@ -5,7 +5,7 @@ category: ai
 subcategory: guidelines
 tags: [ai, chatbot, avatar, robot]
 order: 6
-last_updated: 2026-06-12
+last_updated: 2026-06-18
 ---
 
 
@@ -88,9 +88,14 @@ When clicking a button results in opening a conversation with a chatbot, use the
 - Contextual examples show possible launch button styling using masthead items, icon buttons, and menu toggles.
 - Choose the variant and launch location that best suits your product UI.
 
-<figure data-type="example landscape">
+<figure data-type="example">
   <img src="../assets/images/chatbot-launch-button-variants.png" alt="Chatbot launch button variants shown across light and dark theme/modes as primary, secondary and inverse robot icon buttons states" title="example" width="1148" />
+  <figcaption>Launch button variants across light and dark themes, showing primary, secondary, and inverse states.</figcaption>
+</figure>
+
+<figure data-type="example">
   <img src="../assets/images/chatbot-launch-buttons.png" alt="PatternFly chatbot UI screenshot with examples of chatbot launch buttons, using the robot icon" title="example" width="1017" />
+  <figcaption>Examples of chatbot launch buttons using the robot icon within a product UI.</figcaption>
 </figure>
 
 ## Chatbot avatar don'ts
