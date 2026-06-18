@@ -61,12 +61,12 @@ Some AI-assisted features may warrant more than an icon and text label. In these
 - The text for this notice may vary or be tailored to the content.
 - For external-facing AI features, [refer to this guidance](https://url.corp.redhat.com/notices-external-facing-ai-enabled-features) and work with your AIA Reviewers during the AIA review process.
 
-<figure data-type="example">
+<figure data-type="example landscape">
   <img src="../assets/images/info-alert-ai-generated-content.png" alt="Inline alert warning component shown above an AI case summary within a security application, with &quot;Compliance case uses AI. Check for mistakes...&quot; guidance" title="example" width="1009">
   <figcaption>A warning notice placed above AI-generated content, alerting users to check for mistakes.</figcaption>
 </figure>
 
-<figure data-type="example">
+<figure data-type="example landscape">
   <img src="../assets/images/warning-alert-ai-generated-content.png" alt="Inline alert info component shown above an AI case summary within a security application, with &quot;Important. This feature uses AI technology...&quot; guidance" title="example" width="1008">
   <figcaption>An info notice placed above AI-related tools, reminding users not to include sensitive information.</figcaption>
 </figure>
