@@ -30,29 +30,39 @@ These components are used to notify users when they are interacting with AI-rela
 
 Use inline alerts to surface AI disclosures directly within the page context.
 
-<figure data-type="example">
-  <img src="../assets/images/warning-inline-alert-ai-related-features.png" alt="Inline alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="613">
-  <figcaption>Warning variant: notify users that a feature uses AI and that they should review AI-generated content prior to use.</figcaption>
-</figure>
-
-<figure data-type="example">
-  <img src="../assets/images/info-inline-alert-ai-related-features.png" alt="Inline alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="609">
-  <figcaption>Info variant: advise users not to include personal or sensitive information, as AI systems may retain data.</figcaption>
-</figure>
+<ul data-type="examples">
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/warning-inline-alert-ai-related-features.png" alt="Inline alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="613">
+      <figcaption>Warning variant: notify users that a feature uses AI and that they should review AI-generated content prior to use.</figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/info-inline-alert-ai-related-features.png" alt="Inline alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="609">
+      <figcaption>Info variant: advise users not to include personal or sensitive information, as AI systems may retain data.</figcaption>
+    </figure>
+  </li>
+</ul>
 
 ### Toast alerts
 
 Use toast alerts for more prominent AI disclosures, such as when a feature is first accessed.
 
-<figure data-type="example">
-  <img src="../assets/images/warning-modal-alert-ai-related-features.png" alt="Toast alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="389">
-  <figcaption>Warning variant: inform users that their information will be used to create an AI-generated summary and that output may not be up-to-date or without error.</figcaption>
-</figure>
-
-<figure data-type="example">
-  <img src="../assets/images/info-modal-alert-ai-related-features.png" alt="Toast alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="389">
-  <figcaption>Info variant: remind users not to include personal information, and link to the Red Hat Privacy Statement for more information.</figcaption>
-</figure>
+<ul data-type="examples">
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/warning-modal-alert-ai-related-features.png" alt="Toast alert warning component with &quot;[Feature name] uses AI. Check for mistakes.&quot; guidance" title="example" width="389">
+      <figcaption>Warning variant: inform users that their information will be used to create an AI-generated summary and that output may not be up-to-date or without error.</figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/info-modal-alert-ai-related-features.png" alt="Toast alert info component with &quot;Important. This feature uses AI technology. Do not include any personal information...&quot; guidance" title="example" width="389">
+      <figcaption>Info variant: remind users not to include personal information, and link to the Red Hat Privacy Statement for more information.</figcaption>
+    </figure>
+  </li>
+</ul>
 
 ## Transparency notices for AI-assisted features
 
@@ -61,15 +71,20 @@ Some AI-assisted features may warrant more than an icon and text label. In these
 - The text for this notice may vary or be tailored to the content.
 - For external-facing AI features, [refer to this guidance](https://url.corp.redhat.com/notices-external-facing-ai-enabled-features) and work with your AIA Reviewers during the AIA review process.
 
-<figure data-type="example landscape">
-  <img src="../assets/images/info-alert-ai-generated-content.png" alt="Inline alert warning component shown above an AI case summary within a security application, with &quot;Compliance case uses AI. Check for mistakes...&quot; guidance" title="example" width="1009">
-  <figcaption>A warning notice placed above AI-generated content, alerting users to check for mistakes.</figcaption>
-</figure>
-
-<figure data-type="example landscape">
-  <img src="../assets/images/warning-alert-ai-generated-content.png" alt="Inline alert info component shown above an AI case summary within a security application, with &quot;Important. This feature uses AI technology...&quot; guidance" title="example" width="1008">
-  <figcaption>An info notice placed above AI-related tools, reminding users not to include sensitive information.</figcaption>
-</figure>
+<ul data-type="examples">
+  <li>
+    <figure data-type="example landscape">
+      <img src="../assets/images/info-alert-ai-generated-content.png" alt="Inline alert warning component shown above an AI case summary within a security application, with &quot;Compliance case uses AI. Check for mistakes...&quot; guidance" title="example" width="1009">
+      <figcaption>A warning notice placed above AI-generated content, alerting users to check for mistakes.</figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure data-type="example landscape">
+      <img src="../assets/images/warning-alert-ai-generated-content.png" alt="Inline alert info component shown above an AI case summary within a security application, with &quot;Important. This feature uses AI technology...&quot; guidance" title="example" width="1008">
+      <figcaption>An info notice placed above AI-related tools, reminding users not to include sensitive information.</figcaption>
+    </figure>
+  </li>
+</ul>
 
 ## Transparency notices for virtual assistants
 
@@ -77,15 +92,20 @@ Some AI-assisted features may warrant more than an icon and text label. In these
 - Include a persistent notice under the 'i' icon: "Always review AI-generated content prior to use." (This is a persistent notice associated with the input/output box.)
 - For external-facing AI features, [refer to this guidance](https://url.corp.redhat.com/notices-external-facing-ai-enabled-features).
 
-<figure data-type="example">
-  <img src="../assets/images/virtual-assistant-ai-icon-label.png" alt="Ask Red Hat virtual assistant with the AI icon in the header bar as a visual indicator, and the AI tag/label as a verbal indicator" title="example" width="507">
-  <figcaption>The AI icon in the header bar serves as a visual indicator, and the "AI" tag/label is a verbal indicator.</figcaption>
-</figure>
-
-<figure data-type="example">
-  <img src="../assets/images/virtual-assistant-info-message.png" alt="Ask Red Hat virtual assistant with an alert info component giving notice before the user interacts, with a persistent notice associated with the input/output box" title="example" width="572">
-  <figcaption>A notice shown before the user interacts with the virtual assistant, with a persistent notice associated with the input/output box.</figcaption>
-</figure>
+<ul data-type="examples">
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/virtual-assistant-ai-icon-label.png" alt="Ask Red Hat virtual assistant with the AI icon in the header bar as a visual indicator, and the AI tag/label as a verbal indicator" title="example" width="507">
+      <figcaption>The AI icon in the header bar serves as a visual indicator, and the "AI" tag/label is a verbal indicator.</figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure data-type="example">
+      <img src="../assets/images/virtual-assistant-info-message.png" alt="Ask Red Hat virtual assistant with an alert info component giving notice before the user interacts, with a persistent notice associated with the input/output box" title="example" width="572">
+      <figcaption>A notice shown before the user interacts with the virtual assistant, with a persistent notice associated with the input/output box.</figcaption>
+    </figure>
+  </li>
+</ul>
 
 ## Indicating AI-generated content
 
